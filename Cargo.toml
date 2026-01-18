@@ -5,7 +5,7 @@ edition = "2021"
 description = "Format Claude Code's stream-json output into human-readable text"
 license = "MIT"
 authors = ["Jeremy Wells"]
-repository = "https://github.com/jeremyw/claude-stream-format"
+repository = "https://github.com/jemmyw/claude-stream-format"
 keywords = ["claude", "cli", "formatter", "streaming"]
 categories = ["command-line-utilities"]
 
