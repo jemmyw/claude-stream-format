@@ -1,0 +1,13 @@
+{"type": "assistant", "message": {"content": [{"type": "text", "text": "Let me read the file."}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Read", "input": {"file_path": "/src/main.rs"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Edit", "input": {"file_path": "/src/lib.rs"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Write", "input": {"file_path": "/new_file.txt"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Bash", "input": {"command": "ls -la"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Bash", "input": {"command": "this is a very long command that should be truncated because it exceeds eighty characters in length which is the max"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Glob", "input": {"pattern": "**/*.rs"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Grep", "input": {"pattern": "fn main"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "TodoWrite", "input": {"todos": []}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "Task", "input": {"description": "Search for files"}}]}}
+{"type": "assistant", "message": {"content": [{"type": "tool_use", "name": "WebFetch", "input": {"url": "https://example.com"}}]}}
+{"type": "result", "result": "Task completed successfully with all files updated."}
+malformed json line that should be skipped
