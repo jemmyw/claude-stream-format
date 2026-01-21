@@ -19,7 +19,7 @@ cargo build --release
 Pipe Claude Code's stream-json output through this tool:
 
 ```bash
-claude -p "do something" --output-format stream-json | claude-stream-format
+claude -p "do something" --verbose --output-format stream-json | claude-stream-format
 ```
 
 ## Output Format
